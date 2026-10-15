@@ -1,5 +1,4 @@
 
-# Question 2 Part A
 # Open Black Astronauts Part 1
 
 part1 = open("Black Astronauts (partial)- Part 1.txt", "r")
@@ -28,7 +27,6 @@ part4.write(part3_text)
 part4.close()
 
 
-# Question 2 Part B
 # Read and print all names in Part 4
 
 part4 = open("Black Astronauts Part 4.txt", "r")
@@ -48,7 +46,7 @@ for name in names:
 part5.close()
 
 
-# Question 2 Part C
+# Part C
 import os
 
 # Remove Black Astronauts Part 1
