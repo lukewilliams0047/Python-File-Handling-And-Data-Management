@@ -1,5 +1,5 @@
 
-# Part A: Combine the two Bill Clinton speech files
+# Combine the two Bill Clinton speech files
 
 part1 = open("Bill Clinton - OKC bombing speech - Part 1.txt", "r")
 part1_text = part1.read()
@@ -15,7 +15,7 @@ part3.write(part2_text)
 part3.close()
 
 
-# Part B: Write and print the important sentence
+# Write and print the important sentence
 
 important_sentence = (
     "You have lost too much, but you have not lost everything. "
@@ -30,7 +30,7 @@ sentence_file.close()
 print(important_sentence)
 
 
-# Part C: Count the lines in Part 3
+# Count the lines in Part 3
 
 line_count = 0
 
