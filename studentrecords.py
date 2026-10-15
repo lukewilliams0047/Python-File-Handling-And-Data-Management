@@ -1,5 +1,4 @@
 
-# Question 3 Part A
 # Open and read the file
 
 student_file = open("Student Records.txt", "r")
@@ -16,7 +15,6 @@ for i in range(0, len(records), 3):
     print()
 
 
-# Question 3 Part B
 # Open the file in append mode
 
 student_file = open("Student Records.txt", "a")
@@ -30,7 +28,6 @@ print(student_file.read())
 student_file.close()
 
 
-# Question 3 Part C
 # Open and read the file
 
 student_file = open("Student Records.txt", "r")
